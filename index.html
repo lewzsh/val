@@ -7,9 +7,14 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
-<link href="styles/styles.css" rel="stylesheet">
+<!-- CSS -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<link rel="stylesheet" href="styles/styles.css">
+<!-- JavaScript -->
 <script src="scripts/scripts.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
 
 <title>Val Sibila, Soprano</title>
 
@@ -59,8 +64,8 @@
         <header class="header">
             <img src="assets/images/Val.jpeg" alt="Val Sibila sitting on a couch looking dreamily into the distance" style="width: 100%; height: auto;">
             <div class="namelogo">
-                <h1>Val Sibila</h1>
-                <h3>Soprano</h3>
+                <h1><img src="assets/images/ValSibilaLogo.svg"></h1>
+                <h3><img src="assets/images/SopranoLogo.svg"></h3>
             </div>
         </header>
 
@@ -86,30 +91,47 @@
                 </div>
                 <div class="block-content">
                     <div class="block-grid">
-                        
+                        <iframe class="airtable-embed" src="https://airtable.com/embed/appo4e0hEzGVcxEql/shrWGQSKuW5yl1Yvo?viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="block">
+                <div class="block-title">
+                    <h2>Photography</h2>
+                </div>
+                <div class="block-content">
+                    <div class="main-carousel js-flickity"  data-flickity='{ "fullscreen": true, "imagesLoaded": true}'>
+                        <div class="carousel-cell"><img src="assets/images/valbw.jpeg"></div>
+                        <div class="carousel-cell"><img src="assets/images/valbwnojacket.jpeg"></div>
+                        <div class="carousel-cell"><img src="assets/images/vallaughing.jpeg"></div>
+                        <div class="carousel-cell"><img src="assets/images/valstanding.jpeg"></div>
+                        <div class="carousel-cell"><img src="assets/images/valwindow.jpeg"></div>
                     </div>
                 </div>
             </div>
         </article>
 
         <footer class="footer">
-            <div class="block">
-                <div class="block-title">
-                    <h2>Contact</h2>
-                </div>
-                <div class="block-content">
-                    <p>
-                        <a href="mailto:vrsibila@gmail.com">
-                            Email me
-                            <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. -->
-                                <title>Email Me</title>
-                                <path fill="currentColor" d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
-                            </svg>
-                        </a>
-                    </p>
+            <div class="footer-content">
+                <div class="block">
+                    <div class="block-title">
+                        <h2>Contact</h2>
+                    </div>
+                    <div class="block-content">
+                        <span style="font-size: 1.75em; line-height: 1em;"></span>
+                        <p>
+                            <a href="mailto:vrsibila@gmail.com">
+                                vrsibila@gmail.com
+                                <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. -->
+                                    <title>vrsibila@gmail.com</title>
+                                    <path fill="currentColor" d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+                                </svg>
+                            </a>
+                        </p>
+                    </div>
                 </div>
             </div>
-
         </footer>
 
     </div>
