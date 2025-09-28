@@ -2,7 +2,12 @@
 
 [link](https://www.valsibila.com/)
 
-To Add:
+To add:
 
-- Performance schedule
+- Need new way to do  performance schedule
 - CV/Portfolio
+
+To update:
+
+- better looking video embeds 
+- get photo carousel to behave better
