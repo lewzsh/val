@@ -11,4 +11,4 @@ To update:
 
 - better looking video embeds 
 - get photo carousel to behave better
-boo
+- boo
