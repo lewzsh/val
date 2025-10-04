@@ -11,3 +11,4 @@ To update:
 
 - better looking video embeds 
 - get photo carousel to behave better
+- more cat pics
